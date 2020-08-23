@@ -106,3 +106,68 @@
         line-height: 80px;
     }
 }
+
+
+/* --------------wide screen viwe---------------- */
+@media (min-width: 960px){
+    
+    body {
+        width: 960px;
+    }
+    main  div  {
+        display: inline-block;
+    }
+    section, footer {
+        float: right;
+    }
+    /* -----------------HEADER----------------- */
+    header nav div {
+        height: 100px;
+    }
+    header nav div p {
+        line-height: 100px;
+    }
+    /* -----------------MAIN----------------- */
+    main aside {
+        width: calc(100%/4.8);
+        float: left;
+    }
+    main aside div {
+        height: 600px;
+        width: 100%;
+    }
+    main aside div p {
+        line-height: 600px;
+    }
+    main #container1, main #container2 {
+        width: calc(100%/(960/760));
+   }
+  
+    main #container1 div {
+        height: 200px;
+        width: 49.7%;
+        border-top: none;
+    }
+    main #container1 div p {
+        line-height: 200px;
+    }
+    main #container2 div {
+        height: 250px;
+        width: 24.55%;
+    }
+    main #container2 div p {
+        line-height: 250px;
+    }
+
+    /* -----------------Footer----------------- */
+    footer {
+        width: calc(100%/(960/760));
+
+    }
+    footer div {
+        height: 150px;
+    }
+    footer div p {
+        line-height: 150px;
+    }
+}
