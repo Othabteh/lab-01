@@ -3,7 +3,7 @@
 }
 /* ********************MOBILE****************** */
 @media only screen and (min-width: 480px) and (max-width:767px) {
-    .MBorderT {
+    /* .MBorderT {
         border-top: none;
     } 
     .MBorderR {
@@ -14,11 +14,11 @@
     }
     .MBorderL {
         border-left: none;
-    }
+    } */
 }
 /* ********************Laptop & Desktop****************** */
 @media only screen and (min-width: 768px) and (max-width:960px) {
-    .DBorderT {
+    /* .DBorderT {
         border-top: none;
     } 
     .DBorderR {
@@ -29,5 +29,5 @@
     }
     .DBorderL {
         border-left: none;
-    }
+    } */
 }
